@@ -1,5 +1,9 @@
+
 /*----------section acceuil-------------*/
 /*----------section produit biere-------------*/
+
+/*------------accueil-----------*/
+/*------------section produit-----------*/
 .produit{
     width: 100%;
     background-color: #FFE861;
@@ -21,7 +25,7 @@
     background-image: url('../../images/patternFond.png');
     background-repeat: repeat;
     opacity: 0.3;
-    
+
 }
 
 .grad-clair{
@@ -59,7 +63,7 @@
     margin-left: 130px;
     width: 400px;
     height: 500px;
-    
+
     position: absolute;
 }
 
@@ -119,12 +123,16 @@
         font-weight: 700;
         padding-left:330px;
         padding-top: 10px;
-        
+
+    }
 }
+/*------------fin section produit-----------*/
+/*------------section contact-----------*/
+.contact{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+    #sep{
+        border-right: 2px solid black;
+    }
 }
-/*---------fin-section produit biere-------------*/
-
-/*---------fin-section acceuil-------------*/
-
-
-
