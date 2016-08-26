@@ -66,6 +66,11 @@ body {
   padding-top: 200px;
   padding-bottom: 50px; }
 
+footer {
+  background-color: #111111;
+  color: white;
+  text-align: center; }
+
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
 .carousel-control .fa-angle-left,
@@ -93,6 +98,8 @@ body {
 .carousel-control.right {
   background-image: none; }
 
+/*------------accueil-----------*/
+/*------------section produit-----------*/
 .produit {
   width: 100%;
   background-color: #FFE861;
@@ -198,5 +205,18 @@ body {
     font-weight: 700;
     padding-left: 330px;
     padding-top: 10px; }
+
+/*------------fin section produit-----------*/
+/*------------section contact-----------*/
+.contact {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px; }
+  .contact #sep {
+    border-right: 2px solid black; }
+
+/*------------fin contact-----------*/
+/*------------fin accueil-----------*/
+/*------------section -----------*/
 
 /*# sourceMappingURL=main.css.map */
