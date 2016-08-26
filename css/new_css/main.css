@@ -7,6 +7,10 @@
   min-height: 95px;
   /*----choise-hauteur-min-menu----*/ }
 
+.navbar-min {
+  min-height: 70px;
+  background-color: red; }
+
 .navbar-main {
   border: none; }
 
