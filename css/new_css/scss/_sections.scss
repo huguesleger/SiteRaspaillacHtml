@@ -126,12 +126,56 @@
 
     }
 }
+.btn{
+    float: right;
+}
+.btn-biere{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    right: 20%;
+    margin-top: -25px;
+}
+.btn-biere:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid #ffffff;
+    color: #000;
+}
+
+.btn-biere:active{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid #ffffff;
+    color: #000;
+}
+
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+
 /*------------fin section produit-----------*/
 /*------------section contact-----------*/
 .contact{
     display: flex;
     justify-content: space-around;
     padding: 50px 0px;
+    & .info{
+        width: 210px;
+        text-align: center;
+    }
+    & .brass{
+        margin-left: 95px;
+    }
+    & .horra{
+        margin-right: 80px;
+    }
     #sep{
         border-right: 2px solid black;
     }

@@ -95,10 +95,24 @@ body {
   padding-top: 200px;
   padding-bottom: 40px; }
 
+h1 {
+  text-transform: uppercase; }
+
 footer {
   background-color: #111111;
   color: white;
-  text-align: center; }
+  padding-top: 10px; }
+  footer div {
+    display: flex;
+    justify-content: center; }
+    footer div p {
+      padding-top: 20px; }
+    footer div img {
+      padding-left: 5px; }
+
+span {
+  font-size: 10px;
+  padding-left: 25px; }
 
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
@@ -237,12 +251,49 @@ footer {
     padding-left: 330px;
     padding-top: 10px; }
 
+.btn {
+  float: right; }
+
+.btn-biere {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px;
+  position: absolute;
+  right: 20%;
+  margin-top: -25px; }
+
+.btn-biere:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid #ffffff;
+  color: #000; }
+
+.btn-biere:active {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid #ffffff;
+  color: #000; }
+
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
 /*------------fin section produit-----------*/
 /*------------section contact-----------*/
 .contact {
   display: flex;
   justify-content: space-around;
   padding: 50px 0px; }
+  .contact .info {
+    width: 210px;
+    text-align: center; }
+  .contact .brass {
+    margin-left: 95px; }
+  .contact .horra {
+    margin-right: 80px; }
   .contact #sep {
     border-right: 2px solid black; }
 
