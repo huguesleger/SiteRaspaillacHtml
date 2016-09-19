@@ -42,7 +42,7 @@
 .navbar-main .navbar-nav > .active > a:hover,
 .navbar-main .navbar-nav > .active > a:focus {
   color: #000;
-  border-bottom: 2px solid #FFE861;
+  border-bottom: 2px solid #95C91C;
   background-color: transparent; }
 
 .navbar-main .navbar-toggle .icon-bar {
@@ -147,7 +147,7 @@ span {
 /*------------section produit-----------*/
 .produit {
   width: 100%;
-  background-color: #FFE861;
+  background-color: #95C91C;
   padding-top: 90px;
   padding-bottom: 40px; }
 

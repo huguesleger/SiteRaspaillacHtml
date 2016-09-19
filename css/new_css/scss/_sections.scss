@@ -1,4 +1,4 @@
-
+@import "variable";
 /*----------section acceuil-------------*/
 /*----------section produit biere-------------*/
 
@@ -6,7 +6,7 @@
 /*------------section produit-----------*/
 .produit{
     width: 100%;
-    background-color: #FFE861;
+    background-color: $colorPricipal;
     padding-top: 90px;
     padding-bottom: 40px;
 }

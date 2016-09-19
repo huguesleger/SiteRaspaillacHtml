@@ -1,3 +1,4 @@
+@import "variable";
 /*---------------nav-------------------*/
 .main{
     background-color: #fff; /*----choise-color-menu----*/
@@ -15,7 +16,6 @@
     padding-bottom: 0px !important;
     transition: padding 0.5s;
 }
-
 
 
 .navbar-main {
@@ -53,7 +53,7 @@
 .navbar-main .navbar-nav > .active > a:hover,
 .navbar-main .navbar-nav > .active > a:focus {
   color: #000;
-  border-bottom: 2px solid #FFE861;
+  border-bottom: 2px solid $colorPricipal;
   background-color: transparent;
 }
 .navbar-main .navbar-toggle .icon-bar {
